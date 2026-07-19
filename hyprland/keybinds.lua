@@ -127,7 +127,7 @@ hl.bind(vars.kbCloseWindow, hl.dsp.window.close())
 -- Special workspace toggles
 hl.bind(vars.kbSpecialWs, hl.dsp.exec_cmd("caelestia toggle specialws"))
 hl.bind(vars.kbSystemMonitorWs, hl.dsp.exec_cmd("caelestia toggle sysmon"))
-hl.bind(vars.kbMusicWs, hl.dsp.exec_cmd("caelestia toggle music"))
+hl.bind(vars.kbMusicWs, hl.dsp.exec_cmd("spotify"))
 hl.bind(vars.kbCommunicationWs, hl.dsp.exec_cmd("caelestia toggle communication"))
 hl.bind(vars.kbTodoWs, hl.dsp.exec_cmd("caelestia toggle todo"))
 
